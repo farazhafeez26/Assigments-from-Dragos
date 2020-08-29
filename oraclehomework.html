@@ -1,0 +1,78 @@
+<html>
+<title>Oracle homework</title>
+
+<style>
+    .heading {
+        text-align: left;
+        color: brown;
+        font-size: 30px;
+
+
+    }
+
+    .buttonstyle {
+        background-color: orangered;
+        color: white;
+        font-size: 30px;
+        border-radius: 5px;
+        padding: 20px;
+
+    }
+
+
+
+    .magic-box {
+        border-style: groove;
+        border-color: black;
+        padding: 50px 30px 90px;
+        color: grey;
+        font-weight: 300;
+        font-size: 40px;
+        text-align: center;
+    }
+</style>
+
+<script>
+
+    function myfunction1() {
+        var x = confirm("Do you like sports?")
+        y = confirm("Do you like pets?")
+        z = confirm("Do you like pizza?")
+        if (x, y, z) {
+            document.getElementById("demo").innerText = "You will have a nice life"
+        }
+
+        else {
+            document.getElementById("demo").innerText = "Your life is doomed"
+        }
+
+
+    }
+
+
+
+
+
+
+</script>
+
+
+<body>
+
+    <h1 align="center" ;>The oracle will predict your future</h1>
+
+    <div style="border-style:groove" ;padding-top=40px; align="center">
+        <h2 class="heading">Generate a magic phrase</h2>
+
+        <p class="magic-box" id="demo">Magic Phrase</p>
+        <button class="buttonstyle" onclick="myfunction1()">Make Magic</button>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
