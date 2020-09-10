@@ -4,22 +4,26 @@
     <title>The fortune teller </title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-size=1.0" />
-    <link rel=stylesheet href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
 </head>
 
 
 
 <body>
+    <div class="container">
+        <h1 style="text-align:center" ;>The oracle will predict your future</h1>
 
-    <h1 style="text-align:center" ;>The oracle will predict your future</h1>
+        <div style="border-style:groove; padding-top:40px; text-align:center;">
+            <h2 class="heading">Generate a magic phrase</h2>
 
-    <div style="border-style:groove; padding-top:40px; text-align:center;">
-        <h2 class="heading">Generate a magic phrase</h2>
-
-        <p class="magic-box" id="demo">Magic Phrase</p>
-        <button class="buttonstyle" onclick="myfunction1()">Make Magic</button>
+            <p class="magic-box" id="demo">Magic Phrase</p>
+            <button class="buttonstyle btn btn-danger" onclick="myfunction1()">Make Magic</button>
+        </div>
     </div>
-
     <script src="oracle.js"></script>
 
 
